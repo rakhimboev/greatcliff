@@ -1,0 +1,83 @@
+
+main .h1{
+    margin: 50px 100px 30px;
+}
+@media only screen and (min-width: 991px) {
+    .partners .col-lg-1-half {
+        flex: 0 0 auto;
+        width: 12.5%;
+    }
+}
+.navbar-collapse .navbar-nav .nav-item.active .nav-link{
+    color:#fff;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    color:#fff;
+}
+/*#activities #container .sticky-top {
+    /* position: sticky; */
+    /* top: 200px; */
+.navbar {
+    background-color: transparent;
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+    overflow-x: scroll;
+}
+.activitiesTable caption {
+    background-color: #852B1B;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    caption-side: top;
+    text-align: center;
+}
+.contactFieldset {
+    border: 1px solid #9ed034;
+    padding: 20px;
+}
+.contactLegend {
+    color: #4977D1;
+    font-weight: bold;
+}
+/* thead {
+    background-color: #BDE1FF;
+    text-align: center;
+}
+tbody {
+    background-color: #EEFFE6;
+    text-align: center;
+} */
+.activitiesTable .activitiesTableHead .tr .td {
+    /* width: 225px;
+    height: 75px;
+    vertical-align: middle; */
+    border: solid 1px #852B1B;
+}
+.activitiesTable .activitiesTableBody .tr .td {
+    /* width: 225px;
+    height: 75px;
+    vertical-align: middle; */
+    border: solid 1px #852B1B;
+}
+/* thead tr td:first-child {
+    width: 125px;
+    height: 50px;
+    background-color: #4977D1;
+    color: #fff;
+}
+td:first-child {
+    font-weight: bold;
+    background: #BDE1FF;
+}
+.activitiesTableSelected {
+    background-color: greenyellow;
+    font-weight: bold;
+    color: white;
+} */

@@ -1,0 +1,623 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    min-height: 275px;
+}
+h1 {
+    color: #9ed034;
+    margin: 50px 100px 30px;
+}
+h2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* Index Area */
+#home {
+    margin: 40px;
+    background: no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 415px;
+}
+/* #home header {
+    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+    background-size: 1500px;
+} */
+.main-header {
+    background-color:rgba(38, 41, 61, 0.7);
+    width: 80%;
+    /* margin: 2em auto 0 auto; */
+    margin: 0 auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+    /* top: 100px; */
+}
+.main-header .logo img{
+    width: 100px;
+    height: 100px;
+    margin: 0 2em 0 0;
+    float: left;
+    
+}
+
+/* Navigation */
+.main-menu {
+    /* margin-left: 227px; */
+    font-weight: 400;
+    margin-top: 0px;
+    position: absolute;
+    top: 47px;
+    right: 175px
+
+}
+.main-menu ul li {
+    list-style-type: none;
+    /* display: inline-block; */
+    float: left;
+    padding-left: 24px;
+    padding-right: 25px;
+    border-left: 1px solid rgba(202, 204, 202, 0.6);
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main-menu ul li a {
+    text-decoration: None;
+    color: #888;
+}
+.main-menu ul li a:hover {
+    color: #9ed034;
+}
+.main-menu ul li.active {
+    background: #9ed034;
+    border: None;
+}
+.main-menu ul li.active a {
+    color:#fff;
+}
+.navbar-toggler{
+    vertical-align: middle;
+}
+
+/* Current Local Time Section */
+#timeofday {
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+}
+#timeofday span:first-child {
+    color: #3a3a3a;
+}
+#clock {
+    color: #125688;
+}
+
+/* Main Section */
+#homeMainH1 {
+    text-align: center;
+}
+
+.homeMainP div {
+    border: 1px solid rgb(150, 150, 150);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.homeMainP h2 {
+    margin: 15px;
+    text-align: center;
+}
+
+.homeMainP p {
+    margin: 15px;
+}
+
+.homeMainP {
+    display: grid;
+}
+
+.homeMainP1 {
+    grid-area: homeMainP1;
+}
+.homeMainP2 {
+    grid-area: homeMainP2;
+}
+
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288C3;
+}
+section .partners {
+    /* width: 1200px; */
+    padding: 2em 0 2em 0;
+    /* margin: 50px auto 0; */
+    margin: 2em auto 0;
+    text-align: center;
+}
+section .partners .partner {
+    display: inline-block;
+    margin: 1em 1em;
+    /* padding: 1.3em 1.5em; */
+    padding: 2.5em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+section .partners .partner img {
+    /* width: 100px;
+    height: 100px; */
+    width: 100%;
+    height: 100%;
+}
+/* .col-lg-1-half {
+    -ms-flex:0 0 12.5%;
+    flex:0 0 12.5%;
+    max-width: 12.5%;
+} */
+/* Partner for grid */
+/* .partners{
+    display: grid;
+}
+.partner1 {
+    grid-area: partner1;
+}
+.partner2 {
+    grid-area: partner2;
+}
+.partner3 {
+    grid-area: partner3;
+}
+.partner4 {
+    grid-area: partner4;
+}
+.partner5 {
+    grid-area: partner5;
+}
+.partner6 {
+    grid-area: partner6;
+} */
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 155px;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear: both;
+}
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa {
+    padding: 1em;
+    font-size: 15px;
+    width: 3em;
+    text-align: center;
+    text-decoration: None;
+    margin: 0 0.25em;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+footer #nondisclaimer .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+footer #nondisclaimer .social .fa-instagram{
+    background: #125688;
+    color: white;
+}
+
+/* Activities Page */
+#activities {
+    margin: 40px;
+}
+#activities {
+    background: no-repeat white url(images/runfly.jpg);
+    background-size: 100% 400px;
+}
+.activitiesDivTable {
+    overflow-y: scroll;
+}
+#activitiesTable {
+    /* width: 1000px; */
+    margin: 4em auto 0 auto;
+}
+#activitiesTable caption {
+    background-color: #852B1B;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+    vertical-align: center;
+}
+thead {
+    background-color: #BDE1FF;
+    text-align: center;
+}
+tbody {
+    background-color: #EEFFE6;
+    text-align: center;
+}
+thead, td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852B1B;
+}
+thead tr td:first-child {
+    width: 125px;
+    height: 50px;
+    background-color: #4977D1;
+    color: #fff;
+}
+td:first-child {
+    font-weight: bold;
+    background: #BDE1FF;
+}
+.activitiesTableSelected {
+    background-color: greenyellow;
+    font-weight: bold;
+    color: white;
+}
+/* Selected Activities Display Info Box */
+#activities main #displaySelected {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+#activities main #displaySelected #result, #activities main #displaySelected #sendinfo {
+    display: inline-block;
+    margin: 0;
+}
+#activities main #result {
+    min-height: 50px;
+    width: 90%;
+    padding-left: 20px;
+}
+#activities main #result h4 {
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+#activities main #result p {
+    margin-left: 0;
+}
+#activities main #displaySelected #sendinfo input[type="email"] {
+    width: 200px;
+}
+#modalButton {
+    visibility: hidden;
+}
+/* Activities Page End */
+
+/* Contact Page */
+#contact{
+    margin: 40px;
+}
+#contact {
+    background: no-repeat white url(images/cliff_rock.jpg);
+    background-size: 100% 400px;
+}
+#contact .contactinfo {
+    margin: auto 100px;
+}
+#contact form {
+    margin: auto 100px;
+}
+/* fieldset {
+    border: 1px solid #9ed034;
+    padding-top: 20px;
+}
+legend {
+    color: #4977D1;
+    font-weight: bold;
+} */
+
+#contact #container h1 {
+    color: #9ed034;
+}
+.phone, .email {
+    margin: 10px auto;
+}
+.phone span:first-child {
+    font-weight: bold;
+}
+.email span:first-child {
+    font-weight: bold;
+}
+.textbox label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.textbox input{
+    display: block;
+    margin-top: 10px;
+    width: 500px;
+}
+.radios {
+    margin: 10px auto;
+}
+.radios label{
+    font-weight: bold;
+}
+.selectmenu {
+    margin: 10px auto;
+}
+.selectmenu label {
+    font-weight: bold;
+}
+.selectmenu select {
+    width: 150px;
+    text-align: center;
+}
+.commentbox label {
+    display: block;
+    font-weight: bold;
+}
+.commentbox textarea {
+    width: 500px;
+    height: 150px;
+}
+.randomcode input{
+    font-size: 16px;
+}
+.randomcode p {
+    margin-top: 10px;
+}
+
+form button {
+    width: 8em;
+    height: 2.5em;
+    /* font-size: 1.5em; */
+    /* font-weight: bold; */
+    /* background-color: #4977D1; */
+    /* border: none; */
+    /* position: relative; */
+    /* display: inline-block; */
+    /* right: 0px; */
+}
+
+#codes {
+    background-color:lightgrey;
+    width: 6em;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+
+/* Cliffs Area */
+#cliffs {
+    margin: 40px;
+}
+#cliffs {
+    background: no-repeat white url(images/forest_cliff.jpg);
+    background-size: 100% 400px;
+}
+#container #cliffsPhotoSection {
+    background-color: #fff;
+}
+#container #cliffsPhotoUl {
+    text-align: center;
+}
+#container #cliffsPhotoUl .cliffPhoto {
+    display: inline-block;
+}
+#container #cliffsPhotoUl .cliffPhoto span{
+    display: block;
+    background-color: #852B1B;
+    margin: 0px 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+#container #cliffsPhotoUl .cliffPhoto img {
+    width: 400px;
+    height: 200px;
+    margin: 0px 15px 30px 15px;
+}
+
+/* MEDIA QUERIES */
+
+ /* Small devices (portrait tablets and phones, upto 600px) */
+ @media only screen and (max-width: 600px) {
+    .homeMainP {
+        /* grid-template-columns: 1fr 0.03fr 1fr; */
+        grid-template-areas:
+        'homeMainP1'
+        '.'
+        'homeMainP2';
+    }
+    section .partners .partner {
+        padding: 2.5em;
+    }
+}
+
+ /* Small devices (portrait tablets and phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .homeMainP {
+        /* grid-template-columns: 1fr 0.03fr 1fr; */
+        grid-template-areas:
+        'homeMainP1'
+        '.'
+        'homeMainP2';
+    }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .homeMainP {
+        grid-template-columns: 0.3fr 1fr 0.03fr 1fr 0.3fr ;
+        /* grid-template-rows: 200px 5px 200px; */
+        grid-template-areas:
+        '. homeMainP1 . homeMainP2. ';
+    }
+    section .partners .partner {
+        padding: 2em;
+    }
+}
+ /* Medium devices (landscape tablets, upto 768px) */
+@media only screen and (max-width: 768px) {
+    footer #nondisclaimer .copy {
+        padding: 3.5em 0em 3.5em 0em;
+        text-align: center;
+        float: none;
+        font-size: 0.9em;
+    }
+}
+ /* Large devices (laptops/desktops, upto 992px) */
+@media only screen and (max-width: 991px) {
+    .main-menu ul li {
+        list-style-type: none;
+        /* display: inline-block; */
+        float: left;
+        padding-left: 2em;
+        padding-right: 1em;
+        border-left: 1px solid rgba(202, 204, 202, 0.6);
+        line-height: 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .main-menu ul li a {
+        text-decoration: None;
+        color: #888;
+    }
+    .main-menu ul li a:hover {
+        color: #9ed034;
+    }
+    .main-menu ul li {
+        /* background: rgb(255, 255, 255, 0.8); */
+        background-color: rgba(38, 41, 61, 0.7);
+        border: None;
+    }
+    .main-menu ul li.active {
+        background: #9ed034;
+        border: None;
+    }
+    .main-menu ul li.active a {
+        color:#fff;
+    }
+    .nav-item {
+        width: 10em;
+        position: relative;
+        left: 12.5em;
+        top: 3.75em;
+    }
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) {
+    .main-menu {
+        position: absolute;
+        right: 0em;
+        top: 0em;
+        /* margin-top: -8px; */
+    }
+    .main-menu ul li {
+        padding-left: 1.2em;
+        padding-right: 1.3em;
+        line-height: 84px;
+        text-transform: uppercase;
+    }
+    .main-menu ul li a:hover {
+        color: #9ed034;
+    }
+    .main-menu ul li.active a{
+        color:#fff;
+    }
+    /* Header background image responsive */
+    header {
+        width: 100%;
+        min-height: 475px;
+    }
+    #home {
+        background-size: 100% 615px;
+    }
+    #cliffs {
+        background-size: 100% 600px;
+    }
+    #activities {
+        background-size: 100% 600px;
+    }
+    #contact {
+        background-size: 100% 600px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .contactFieldset {
+        width: 270px;
+    }
+    form {
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 841px) {
+    .formInnerBorder {
+        margin-right: 0px;
+    }
+    .textbox input{
+        width: 96%;
+    }
+    .commentbox textarea {
+        width: 96%;
+        height: 200px;
+    }
+    .randomcode input{
+        font-size: 16px;
+        display: block;
+        margin-left: calc(96% - 175px);
+    }
+    #codes {
+        margin-top: 10px;
+        display: block;
+        margin-left: calc(96% - 96px);
+    }
+    form button {
+        margin-left: calc(96% - 128px);
+    }
+}
+
+@media only screen and (min-width: 842px) {
+    .formInnerBorder {
+        width: 520px;
+        margin-right: 0px;
+    }
+    .randomcode {
+        margin-left: 215px;
+    }
+    form button {
+        margin-left: 373px;
+    }
+}
